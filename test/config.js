@@ -1,9 +1,6 @@
-var path = require('path');
-var phantomPath = path.join(path.dirname(require('phantomjs').path), '/');
-
 module.exports = function(options) {
   return {
-    phantomPath: phantomPath,
+    phantomPath: require('phantomjs').path,
     basePath: 'https://www.optimizely.com/',
     email: 'ron-jeremy@spam.com',
     password: '1800EatBurritos',

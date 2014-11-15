@@ -5,7 +5,7 @@ var testPath = config.basePath;
 var expect = require('chai').expect; // jshint ignore:line
 
 describe('testing the create account dialog', function() {
-  this.timeout(30000);
+  this.timeout(15000);
 
   describe('filling out the create account form', function() {
     it('fails because password is not confirmed correctly', function(done) {
