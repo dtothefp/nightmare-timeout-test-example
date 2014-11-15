@@ -1,0 +1,27 @@
+{
+  "name": "nightmare-fail-timeout",
+  "version": "1.0.0",
+  "description": "example of how nightmare fails when test assertion throws error",
+  "main": "index.js",
+  "scripts": {
+    "mocha-timeout": "grunt mocha-test:mocha-timeout",
+    "mocha-no-timeout": "grunt mocha-test:mocha-no-timeout",
+    "jasmine-test": "grunt jasmine-test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jasmine-node": "git+ssh://git@github.com:dtothefp/grunt-jasmine-node.git",
+    "grunt-mocha-test": "^0.12.3",
+    "jshint-stylish": "^1.0.0",
+    "load-grunt-config": "^0.16.0",
+    "mocha": "^2.0.1",
+    "nightmare": "^1.6.5",
+    "phantomjs": "^1.9.12",
+    "time-grunt": "^1.0.0"
+  }
+}
